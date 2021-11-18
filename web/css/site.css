@@ -1,0 +1,312 @@
+body, html {
+    height: 100%;
+}
+.bg {
+    background-image: url("https://wallpaperaccess.com/full/2314950.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tambah-anggota-img {
+    background-image: url("https://asset.kompas.com/crops/P_fu6rph-IEl62uzyvfCjbVYy3A=/0x0:7500x5000/750x500/data/photo/2021/09/21/6149aa9f8f618.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-data {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding:50px;
+}
+/*untuk layar device berukuran sedang*/
+@media screen and (min-width: 1000px) {
+  .form-data {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding:50px;
+    margin: 150px 350px 0px 350px;
+  }
+  .total-tamu {
+    width: 23%;
+    padding: 10px;
+    justify-content: flex-end;
+    margin-right: 20px;
+    /* margin-left: 10px; */
+    height: 120px;
+    border-radius: 5px;
+  }
+  .layout-form-tamu {
+    width: 49%;
+    padding:20px;
+  }
+  .layout-data-master {
+    width: 100%;
+    padding:20px;
+  }
+  .jam-digital {
+    margin-left: 10px;
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 0px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .total-tamu {
+    width: 45%;
+    padding: 10px;
+    justify-content: flex-end;
+    margin-right: 9px;
+    margin-left: 9px;
+    margin-top: 10px;
+    /* height: 120px; */
+    height: 100px;
+    border-radius: 5px;
+  }
+  .layout-form-tamu {
+    width: 100%;
+    padding:20px;
+  }
+  .jam-digital {
+    padding-top: 5px;
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 0px;
+  }
+  .layout-data-master {
+    width: 100%;
+  }
+}
+main > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    background-color: #f5f5f5;
+    font-size: .9em;
+    height: 60px;
+}
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    content: '';
+    left: 3px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: solid 5px transparent;
+    margin: 4px 4px 2px 4px;
+    background: transparent;
+}
+
+a.asc:after {
+    border-bottom: solid 7px #212529;
+    border-top-width: 0;
+}
+
+a.desc:after {
+    border-top: solid 7px #212529;
+    border-bottom-width: 0;
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding-top: 7px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 0;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+
+.margin-left   {
+  margin-left: 10px;
+}
+
+.form-tamu {
+  overflow: hidden;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  width: 100%;
+  margin-left: 0px;
+}
+
+.active-page {
+  color: #ffffff;
+  background-color: #3176b1;
+}
+
+.page-prev-last {
+  /* color: #a1a1a1; */
+  padding: 5px 10px 5px 10px;
+  margin: 0px 3px 0px 3px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  border: 1px solid #cbcbcb;
+  /* padding-right: 10px; */
+}
+
+.detail-img {
+  width: 100%;
+}
+
+.detail-info {
+  margin: 0px 10px 0px 10px;
+}
+
+.detail-padding {
+  padding: 20px 0px 0px 0px;
+}
+
+.screenshot-image {
+    width: 150px;
+    height: 90px;
+    border-radius: 4px;
+    border: 2px solid whitesmoke;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    background: white;
+}
+
+.display-cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 5% auto;
+    position: relative;
+}
+
+video, canvas {
+    width: 100%;
+    /* background: rgba(0, 0, 0, 0.2); */
+}
+
+.video-options {
+    position: absolute;
+    left: 20px;
+    top: 150px;
+    z-index:1;
+}
+
+.controls {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: flex;
+}
+
+.controls > button {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 100%;
+    margin: 0 6px;
+    background: transparent;
+}
+
+.controls > button:hover svg {
+    color: white !important;
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+    .controls {
+        flex-direction: column;
+    }
+
+    .controls button {
+        margin: 5px 0 !important;
+    }
+}
+
+.controls > button > svg {
+    height: 20px;
+    width: 18px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.controls button:nth-child(1) {
+    border: 2px solid #D2002E;
+}
+
+.controls button:nth-child(1) svg {
+    color: #D2002E;
+}
+
+.controls button:nth-child(2) {
+    border: 2px solid #008496;
+}
+
+.controls button:nth-child(2) svg {
+    color: #008496;
+}
+
+.controls button:nth-child(3) {
+    border: 2px solid #00B541;
+}
+
+.controls button:nth-child(3) svg {
+    color: #00B541;
+}
+
+.controls > button {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 100%;
+    margin: 0 6px;
+    background: transparent;
+}
+
+.controls > button:hover svg {
+    color: white;
+}
